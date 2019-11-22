@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-toolbar color="dark">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>  
+      </ion-buttons>
+
+      <ion-title color="danger" align:center>Supernova Comics</ion-title>
+      
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h4 text-center margin-top>Contatos</h4>
+
+  <ion-item>
+    <ion-label position="floating">Nome</ion-label>
+    <ion-input [(ngModel)]="nome"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input [(ngModel)]="email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Digite sua mensagem</ion-label>
+    <ion-input [(ngModel)]="mens"></ion-input>
+  </ion-item>
+
+  <div text-center margin-top> 
+  <ion-button color="dark" >
+    ENVIAR
+  </ion-button>
+</div>
+
+<div id="contacts">
+  <ion-item>
+     <ion-icon name="mail" color="dark"></ion-icon>
+    <ion-col class="ion-padding">contato@supernova.com</ion-col>
+  </ion-item>
+  <ion-item>
+    <ion-icon name="logo-instagram" color="danger"></ion-icon>
+    <ion-col class="ion-padding">supernovacomics</ion-col>
+  </ion-item>
+  <ion-item>
+      <ion-icon name="logo-facebook" color="primary"></ion-icon>
+      <ion-col class="ion-padding">supernovacomics</ion-col>
+  </ion-item>
+  <ion-item>
+      <ion-icon name="logo-twitter" color="primary"></ion-icon>
+      <ion-col class="ion-padding">supernovacomics</ion-col>
+  </ion-item>
+  <ion-item>
+      <ion-icon name="logo-youtube" color="danger"></ion-icon>
+      <ion-col class="ion-padding">supernovacomics</ion-col>
+  </ion-item>
+  <ion-item>
+      <ion-icon name="logo-twitch"  id="twitchlogo"></ion-icon>
+      <ion-col class="ion-padding">supernovacomics</ion-col>
+  </ion-item>
+  <ion-item>
+      <ion-icon name="logo-googleplus" id="icongoogle"></ion-icon>
+      <ion-col class="ion-padding">supernovacomics</ion-col>
+  </ion-item>
+  
+</div>
+</ion-content>
+
+<ion-footer id="footertext">
+    <ion-toolbar color="dark">
+      <div class="ion-text-center">
+         <b color="danger">copyright®</b> 2019 supernova comics™
+      </div>
+    </ion-toolbar>
+</ion-footer>
+ 
+

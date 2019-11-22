@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title color="danger" text-center>Supernova Comics</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="fundo">
+  <br>
+  <br>
+  <ion-img src="../../assets/icon/logotipotcc.png" class="logo"></ion-img>
+  <br>
+
+
+  <ion-item class="foo">
+    <ion-label position="floating"color="light">Usuario</ion-label>
+    <ion-input [(ngModel)]="username" color="light"></ion-input>
+  </ion-item>
+
+  <ion-item class="foo">
+    <ion-label position="floating" color="light">Senha</ion-label>
+    <ion-input type="password" [(ngModel)]="password" color="light"></ion-input>
+  </ion-item>
+
+  <div text-center margin-top>
+    <ion-button color="danger" (click)="LogOut()">
+      Limpar
+    </ion-button>
+
+    <ion-button color="danger" (click)="LogIn()">
+      Entrar
+    </ion-button>
+  </div>
+</ion-content>
+
+<ion-footer id="footertext">
+  <ion-toolbar color="dark">
+    <div class="ion-text-center">
+       <b color="danger">copyright®</b> 2019 supernova comics™
+    </div>
+  </ion-toolbar>
+</ion-footer>

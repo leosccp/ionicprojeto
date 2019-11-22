@@ -1,0 +1,67 @@
+.fundo {
+    background-size: cover;
+    --background: url('../../assets/33.png');
+}
+
+.categoria{
+    width: 140px;
+    height: 40px;
+    background: rgb(172, 59, 59);
+    border-radius: 10px;
+}
+
+.poster1_card {
+    width: 220px;
+    height: 270px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.livro-1 {
+    --background: url('../../assets/narutoclass1.png');
+    
+}
+
+.livro-2 {
+    --background: url('../../assets/dbz.png');
+    
+}
+
+.livro-3 {
+    --background: url('../../assets/nshi.png');
+    
+}
+
+.livro-4 {
+    --background: url('../../assets/batma.png');
+    
+}
+
+.livro-5 {
+    --background: url('../../assets/deedpool.png');
+    
+}
+
+.livro-6 {
+    --background: url('../../assets/xmem.png');
+    
+}
+
+.livro-7 {
+    --background: url('../../assets/batma.png');
+    
+}
+
+.livro-8 {
+    --background: url('../../assets/squard.png');
+    
+}
+
+ion-item {
+    --background: rgba(0,0,0,0.3);
+    --border-color: rgba(0,0,0,0.3);
+}
+
+p {
+    color: white;
+}
