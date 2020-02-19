@@ -18,7 +18,7 @@ password = "";
   }
 
   LogIn() {
-    if ((this.username == "manga") && (this.password == "1234")) {
+    if ((this.username == "food") && (this.password == "1234")) {
     console.log('Logado com sucesso');
     this.showToast('Logado com sucesso');
 

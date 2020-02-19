@@ -1,7 +1,7 @@
-.fundo {
-    background-size: cover;
-    --background: url('../../assets/33.png');
-}
+// .fundo {
+  //  background-size: cover;
+  //   --background: url('../../assets/33.png'); 
+// }
 
 .categoria{
     width: 140px;
@@ -18,43 +18,121 @@
 }
 
 .livro-1 {
-    --background: url('../../assets/narutoclass1.png');
+    background-size: cover;
+    --background: url('../../assets/biferole.jpg');
+    
+}
+.titulocard{
+    font-size: 20px;
+    margin-right: 120px;
+    color: #f00;
     
 }
 
 .livro-2 {
-    --background: url('../../assets/dbz.png');
-    
+    background-size: cover;
+    --background: url('../../assets/peixe.jpg');
+
 }
 
 .livro-3 {
-    --background: url('../../assets/nshi.png');
+    background-size: cover;
+    --background: url('../../assets/feijoada.jpg');
     
 }
 
 .livro-4 {
-    --background: url('../../assets/batma.png');
+    --background: url('../../assets/strogonoff.jpg');
     
 }
 
 .livro-5 {
-    --background: url('../../assets/deedpool.png');
+    --background: url('../../assets/talharim.jpg');
     
 }
 
 .livro-6 {
-    --background: url('../../assets/xmem.png');
-    
+    --background: url('../../assets/feijoada.jpg');
+
 }
 
 .livro-7 {
-    --background: url('../../assets/batma.png');
+    --background: url('../../assets/costela.jpg');
     
 }
 
-.livro-8 {
-    --background: url('../../assets/squard.png');
-    
+.lanche-1{
+    --background: url('../../assets/xtudo.jpg');
+    align-content: center;
+    flex: wrap;
+    display: flex;
+}
+
+.lanche-2{
+    --background: url('../../assets/xburguer.jpg');
+    align-content: center;
+    flex: wrap;
+    display: flex;
+}
+
+.lanche-3{
+    --background: url('../../assets/hotdog.jpg');
+    align-content: center;
+    flex: wrap;
+    display: flex;
+}
+
+.lanche-4{
+    --background: url('../../assets/xbacon.jpg');
+    align-content: center;
+    flex: wrap;
+    display: flex;
+}
+
+.lanche-5{
+    --background: url('../../assets/xsalada.jpg');
+    align-content: center;
+    flex: wrap;
+    display: flex;
+}
+
+.lanche-6{
+    --background: url('../../assets/mistoquente.jpg');
+    align-content: center;
+    flex: wrap;
+    display: flex;
+}
+
+.bebida-1{
+    --background: url('../../assets/refrigerantes.jpg');
+
+}
+
+ .bebida-2{
+    --background: url('../../assets/sucos.jpg');
+
+}
+
+ .bebida-3{
+    --background: url('../../assets/cervejas.jpg');
+
+}
+
+ .bebida-4{
+    --background: url('../../assets/vinhos.jpg');
+
+}
+
+ .bebida-5{
+    --background: url('../../assets/agua.jpg');
+
+}
+
+.buy{
+    width: 75px;
+    height: 25px;
+    font-size: 10px;
+    margin-top: 240px;
 }
 
 ion-item {
